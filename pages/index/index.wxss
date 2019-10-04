@@ -1,0 +1,18 @@
+/* pages/index/index.wxss */
+.container {
+  padding: 0 40rpx;
+}
+
+.scale-value {
+  text-align: center;
+  color: #739DEA;
+  width: 160rpx;
+  margin: 100rpx auto 50rpx auto;
+  border-bottom: 1rpx solid #dfdfdf;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

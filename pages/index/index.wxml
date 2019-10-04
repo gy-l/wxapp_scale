@@ -1,0 +1,15 @@
+<!-- pages/index/index.wxml -->
+<view class='container'>
+  <view class="weight-con" hover-class="none" hover-stop-propagation="false">
+    <view class="section">
+      <input class='scale-value' confirm-type="done" bindinput="bindKeyInput" value="{{weight}}" type="digit" placeholder="输入体重" />
+    </view>
+    <scale min="0" max="100" int="{{false}}" single="10" h="30" active="{{weight}}" styles="{{styles}}" id="weight" bindvalue="bindvalue"></scale>
+  </view>
+  <view class="weight-con" hover-class="none" hover-stop-propagation="false">
+    <view class="section">
+      <input class='scale-value' confirm-type="done" bindinput="bindHeightInput" value="{{height}}" type="digit" placeholder="输入身高" />
+    </view>
+    <scale min="0" max="180" int="{{false}}" single="10" h="30" active="{{height}}" styles="{{styles}}" id="height" bindvalue="bindHeghtvalue"></scale>
+  </view>
+</view>

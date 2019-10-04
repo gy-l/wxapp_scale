@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "标尺",
+  "usingComponents": {
+    "scale": "/component/w-scale/w-scale"
+  }
+}
